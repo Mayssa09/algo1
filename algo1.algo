@@ -1,0 +1,22 @@
+VAR sentence = STRING ;
+VAR L,NumberOfwords,NumberOfvowels,i,j,k = INTEGER ;
+VAR j:=0;
+
+FOR i FROM 0 TO sentence.Length STEP 1  DO
+    L=i+1;
+
+FOR j FROM 0 TO sentence.Length STEP 1  DO
+    IF (sentence [j] =  'a' or 'e' or 'u' or 'o' or 'i' or 'y'  ) THEN
+        NumberOfvowels = j+1 ;
+    END_IF
+
+FOR k FROM 0 TO sentence.Length    
+    IF (sentence [k] = " " ) THEN 
+    NumberOfwords = K+1 ;
+    END_IF
+
+END_FOR
+END_FOR
+END_FOR
+
+
